@@ -10,48 +10,45 @@ The course consists of **two selected modules of a larger e-learning course** ca
 * **Module 3:** This core module will deal with 3D/4D geographic point cloud time series analysis. Surface dynamics within a local landscape occur on a large range of spatiotemporal scales. The analysis of surface activities and structural dynamics in 4D point cloud data has therefore become an integral part of Earth observation. These data contain detailed 3D information of the topography with time as additional dimension. This module will also feature Heidelberg’s open source Python library py4dgeo for point cloud change analysis ([https://github.com/3dgeo-heidelberg/py4dgeo](https://github.com/3dgeo-heidelberg/py4dgeo)). 
 
 ## Contact
-> Prof. Dr. Bernhard Höfle - `hoefle [at] uni-heidelberg.de`  
+> Prof. Dr. Bernhard Höfle ([https://www.geog.uni-heidelberg.de/gis/hoefle_en.html](https://www.geog.uni-heidelberg.de/gis/hoefle_en.html))  
 
 
 ## Dates and Topics
 
 ### Location & time
-- Hybrid meetings: INF 348 / R13 or heiCONF: [https://heiconf.uni-heidelberg.de/n4gz-2mdt-prmn-tpry](https://heiconf.uni-heidelberg.de/n4gz-2mdt-prmn-tpry)
+- Hybrid meetings: INF 348 / R13 or heiCONF (link is provided by lecturer)
 - 14:15h - end of Q&A and discussions
 
 The **dates** below represent the due date to finish the topics and be ready for the feedback meeting.
 
 | #   | Date       | Topics                                                                           |
 |-----|------------|----------------------------------------------------------------------------------|
-| 00  | 18.04.2023 | **Introduction & Organization**                                                  |
-| 01  | 25.04.2023 | **Module 1:** Principles of remote sensing time series                           |
-| 02  | 02.05.2023 | Module 1: Large time series datasets in remote sensing                           |
-| 03  | 09.05.2023 | Module 1: Time series analysis based on classification                           |
-| 04  | 16.05.2023 | Module 1: Trajectory-based analysis                                              |
-| 05  | 23.05.2023 | Module 1: Reference data, validation and accuracy assessment                     |
-|  -  | 30.05.2023 | -                                                                                |
-|  -  | 06.06.2023 | -                                                                                |
-| 06  | 13.06.2023 | **Module 3:** Principles of 3D/4D geographic point clouds                        |
-| 07  | 20.06.2023 | Module 3: Programming for point cloud analysis with Python                       |
-| 08  | 27.06.2023 | Module 3: Principles and basic algorithms of 3D change detection and analysis    |
-| 09  | 04.07.2023 | Module 3: Time series analysis of 3D point clouds                                |
-| 10  | 11.07.2023 | Module 3: Machine learning-based 3D/4D point cloud analysis                      |
-| 11  | 18.07.2023 | Module 3: Case studies                                                           |
-|  -  | 18.07.2023 | **Deadline for the selection of research topic**                                 |
-|  -  | 30.09.2023 | **Deadline for scientific reports** (submission as PDF via email to lecturer)    |
+| 00  | 23.04.2024 | **Introduction & Organization**                                                  |
+| 01  | 30.04.2024 | **Module 1:** Principles of remote sensing time series                           |
+| 02  | 07.05.2024 | Module 1: Large time series datasets in remote sensing                           |
+| 03  | 14.05.2024 | Module 1: Time series analysis based on classification                           |
+| 04  | 21.05.2024 | Module 1: Trajectory-based analysis                                              |
+|  -  | 28.05.2024 | -                                                                                |
+| 05  | 04.06.2024 | Module 1: Spatio-temporal data fusion                                            |
+| 06  | 11.06.2024 | Module 1: Reference data, validation and accuracy assessment                     |
+| 07  | 18.06.2024 | **Module 3:** Principles of 3D/4D geographic point clouds                       |
+| 08  | 25.06.2024 | Module 3: Programming for point cloud analysis with Python                       |
+| 09  | 02.07.2024 | Module 3: Principles and basic algorithms of 3D change detection and analysis    |
+| 10  | 09.07.2024 | Module 3: Time series analysis of 3D point clouds                                |
+| 11  | 16.07.2024 | Module 3: Machine learning-based 3D/4D point cloud analysis                      |
+| 12  | 23.07.2024 | Module 3: Case studies                                                           |
+|  -  | 23.07.2024 | **Deadline for the selection of research topic**                                  |
+|  -  | 30.09.2024 | **Deadline for scientific reports** (submission as PDF via email to lecturer)    |
 
 
 ## How To Use the Course
 
-* The course contents are provided via a [website](http://e-trainee.courses-pages.gistools.geog.uni-heidelberg.de/time-series-analysis-in-remote-sensing/index.html) (which you are probably on right now). 
-* This website is automatically generated from the corresponding **GitLab repository**: [https://courses.gistools.geog.uni-heidelberg.de/e-trainee/time-series-analysis-in-remote-sensing](https://courses.gistools.geog.uni-heidelberg.de/e-trainee/time-series-analysis-in-remote-sensing). The repository is linked at the top right of the website on all pages. All students and members of the Institute of Geography have access to the repository with their Uni ID (login via LDAP).
-* Some parts of the course are conducted in **Jupyter Notebooks**. These are static pages on the website, but it is recommended that you follow them interactively. Use the **download button** at the top of the respective pages (e.g., [here](http://e-trainee.courses-pages.gistools.geog.uni-heidelberg.de/time-series-analysis-in-remote-sensing/module3/02_pointcloud_programming_python/02_pointcloud_programming_python.html)). This will open the raw file in your browser, just right click and use "Save page as / Seite speichern unter..." to store the ipynb file.
+* The course contents are provided via a [website](https://3dgeo-heidelberg.github.io/etrainee_heidelberg_2024/index.html) (which you are probably on right now). 
+* This website is automatically generated from the corresponding **GitLab repository**: [https://github.com/3dgeo-heidelberg/etrainee_heidelberg_2024]([https://courses.gistools.geog.uni-heidelberg.de/e-trainee/time-series-analysis-in-remote-sensing](https://github.com/3dgeo-heidelberg/etrainee_heidelberg_2024)). The repository is linked at the top right of the website on all pages. 
+* Some parts of the course are conducted in **Jupyter Notebooks**. These are static pages on the website, but it is recommended that you follow them interactively. Use the **download button** at the top of the respective pages (e.g., [here](https://3dgeo-heidelberg.github.io/etrainee_heidelberg_2024/module3/02_pointcloud_programming_python/exercise/m3_theme2_exercise1.html)). This will open the raw file in your browser, just right click and use "Save page as / Seite speichern unter..." to store the ipynb file.
 * All **data** required for the course is contained in the [central data repository](#data-repository). Each theme contains information which of the data (directories) is relevant for the current task.
-* **Disclaimer**: This course is developed within the ongoing research project [E-TRAINEE](https://web.natur.cuni.cz/gis/etrainee/). It is in pre-release stage and you may therefore encounter possible improvements or required corrections. Your feedback is very helpful:
-    * You can **report issues** via the [Issue Tracker](https://courses.gistools.geog.uni-heidelberg.de/e-trainee/time-series-analysis-in-remote-sensing/-/issues) on the GitLab repository. Depending on the type of issue, they will be solved throughout the course or considered in future development.
-    * You will receive a **feedback form** to evaluate the course theme by theme. We appreciate any feedback you will provide to us by the end of the semester! _The feedback form will only be available from the second week, you will receive it as soon as possible._
-
-
+    * You can **report issues** via the [Issue Tracker](https://github.com/3dgeo-heidelberg/etrainee_heidelberg_2024/issues) on the Github repository. Depending on the type of issue, they will be solved throughout the course or considered in future development.
+    
 ## Data Repository
 
-All data used in the course can be accessed via this link: [https://heibox.uni-heidelberg.de/d/297737a2fd774c669f82/](https://heibox.uni-heidelberg.de/d/297737a2fd774c669f82/)
+All data used in the course can be accessed via Zenodo and downloaded before starting the respective module: [https://zenodo.org/records/10003575](https://zenodo.org/records/10003575)

@@ -1,50 +1,57 @@
-# E-TRAINEE
+# Home
 
-**E-learning course on Time Series Analysis in Remote Sensing for Understanding Human-Environment Interactions** (E-TRAINEE) was developed by collaboration of research groups from four
-partner universities – Charles University, Heidelberg University, University of Innsbruck, and
-University of Warsaw within the ERASMUS+ Strategic partnership project (ID 2020-1-CZ01-KA203-078308).
+Welcome to "**Time Series Analysis in Remote Sensing for Understanding Human-Environment Interactions**".
 
-<center>
-<img src="assets/img/logo_etrainee_full.svg" alt="Logo" title="E-TRAINEE logo" width="250">
-</center>
+The **main objective** is to learn new tools and methods for time series analysis of remote sensing data and to understand their fit-for-purpose application in Geography and environmental sciences. The focus on this year’s course will be on “3D/4D Geographic Point Cloud Time Series Analysis”. 
 
-The course provides a theoretical background to methods used for information extraction from time
-series of remote sensing data. It consists of the following Modules:
+The course consists of **two selected modules of a larger e-learning course** called [E-TRAINEE]([https://web.natur.cuni.cz/gis/etrainee/](https://web.natur.cuni.cz/gis/etrainee/)) that is jointly developed by the Universities of Prague, Warsaw, Innsbruck and Heidelberg in the framework of Erasmus+ and 4EU+ (see [https://web.natur.cuni.cz/gis/etrainee/](https://web.natur.cuni.cz/gis/etrainee/)):
 
+* **Module 1:** This basic module will provide a background on principles of remote sensing time series, time series analysis, time series-based classification, trajectory-based analysis and spatio-temporal data fusion. Furthermore, validation and accuracy assessment principles will be explained.
+* **Module 3:** This core module will deal with 3D/4D geographic point cloud time series analysis. Surface dynamics within a local landscape occur on a large range of spatiotemporal scales. The analysis of surface activities and structural dynamics in 4D point cloud data has therefore become an integral part of Earth observation. These data contain detailed 3D information of the topography with time as additional dimension. This module will also feature Heidelberg’s open source Python library py4dgeo for point cloud change analysis ([https://github.com/3dgeo-heidelberg/py4dgeo](https://github.com/3dgeo-heidelberg/py4dgeo)). 
 
-* Module 1: Methods of Time Series Analysis in Remote Sensing
-* Module 2: Satellite Multispectral Images Time Series Analysis
-* Module 3: 3D/4D Geographic Point Cloud Time Series Analysis
-* Module 4: Airborne Imaging and Laboratory Spectroscopy Time Series Analysis
+## Contact
+> Prof. Dr. Bernhard Höfle - `hoefle [at] uni-heidelberg.de`  
 
 
-<center>
-<img src="assets/img/course_structure.png" alt="Course structure" width="90%">
-</center>
+## Dates and Topics
+
+### Location & time
+- Hybrid meetings: INF 348 / R13 or heiCONF: [https://heiconf.uni-heidelberg.de/n4gz-2mdt-prmn-tpry](https://heiconf.uni-heidelberg.de/n4gz-2mdt-prmn-tpry)
+- 14:15h - end of Q&A and discussions
+
+The **dates** below represent the due date to finish the topics and be ready for the feedback meeting.
+
+| #   | Date       | Topics                                                                           |
+|-----|------------|----------------------------------------------------------------------------------|
+| 00  | 18.04.2023 | **Introduction & Organization**                                                  |
+| 01  | 25.04.2023 | **Module 1:** Principles of remote sensing time series                           |
+| 02  | 02.05.2023 | Module 1: Large time series datasets in remote sensing                           |
+| 03  | 09.05.2023 | Module 1: Time series analysis based on classification                           |
+| 04  | 16.05.2023 | Module 1: Trajectory-based analysis                                              |
+| 05  | 23.05.2023 | Module 1: Reference data, validation and accuracy assessment                     |
+|  -  | 30.05.2023 | -                                                                                |
+|  -  | 06.06.2023 | -                                                                                |
+| 06  | 13.06.2023 | **Module 3:** Principles of 3D/4D geographic point clouds                        |
+| 07  | 20.06.2023 | Module 3: Programming for point cloud analysis with Python                       |
+| 08  | 27.06.2023 | Module 3: Principles and basic algorithms of 3D change detection and analysis    |
+| 09  | 04.07.2023 | Module 3: Time series analysis of 3D point clouds                                |
+| 10  | 11.07.2023 | Module 3: Machine learning-based 3D/4D point cloud analysis                      |
+| 11  | 18.07.2023 | Module 3: Case studies                                                           |
+|  -  | 18.07.2023 | **Deadline for the selection of research topic**                                 |
+|  -  | 30.09.2023 | **Deadline for scientific reports** (submission as PDF via email to lecturer)    |
 
 
-Based on several multimodal data sets - satellite and airborne multi- and hyperspectral imagery and
-point clouds, and applications ranging from landcover monitoring on various spatial scales to 3D change
-analysis, the course demonstrates the whole processing chain, from data acquisition, pre-processing, 
-time series analysis to validation and accuracy assessment of the final product. 
+## How To Use the Course
 
-The self-evaluation quizzes and practical exercises follow the theory. Either open data archives, such as
-Landsat or Sentinel, or datasets acquired within research projects of participating institutions are
-used for exercises. Moreover, application case studies are provided in Modules 2 to 4. All
-exercises and case studies are processed in open or free software packages; codes in Python, R, or
-Google Earth Engine are provided.
-
-The course is primarily developed for MSc students of geoinformatics and geography who
-specialize in remote sensing for monitoring Earth surface dynamics and changes. 
-It may also be of interest and use to MSc and PhD students in fields related to environmental 
-studies, ecology, geology, and other potential users dealing with remote sensing applications, 
-such as practitioners of national environmental and conservation agencies.
+* The course contents are provided via a [website](http://e-trainee.courses-pages.gistools.geog.uni-heidelberg.de/time-series-analysis-in-remote-sensing/index.html) (which you are probably on right now). 
+* This website is automatically generated from the corresponding **GitLab repository**: [https://courses.gistools.geog.uni-heidelberg.de/e-trainee/time-series-analysis-in-remote-sensing](https://courses.gistools.geog.uni-heidelberg.de/e-trainee/time-series-analysis-in-remote-sensing). The repository is linked at the top right of the website on all pages. All students and members of the Institute of Geography have access to the repository with their Uni ID (login via LDAP).
+* Some parts of the course are conducted in **Jupyter Notebooks**. These are static pages on the website, but it is recommended that you follow them interactively. Use the **download button** at the top of the respective pages (e.g., [here](http://e-trainee.courses-pages.gistools.geog.uni-heidelberg.de/time-series-analysis-in-remote-sensing/module3/02_pointcloud_programming_python/02_pointcloud_programming_python.html)). This will open the raw file in your browser, just right click and use "Save page as / Seite speichern unter..." to store the ipynb file.
+* All **data** required for the course is contained in the [central data repository](#data-repository). Each theme contains information which of the data (directories) is relevant for the current task.
+* **Disclaimer**: This course is developed within the ongoing research project [E-TRAINEE](https://web.natur.cuni.cz/gis/etrainee/). It is in pre-release stage and you may therefore encounter possible improvements or required corrections. Your feedback is very helpful:
+    * You can **report issues** via the [Issue Tracker](https://courses.gistools.geog.uni-heidelberg.de/e-trainee/time-series-analysis-in-remote-sensing/-/issues) on the GitLab repository. Depending on the type of issue, they will be solved throughout the course or considered in future development.
+    * You will receive a **feedback form** to evaluate the course theme by theme. We appreciate any feedback you will provide to us by the end of the semester! _The feedback form will only be available from the second week, you will receive it as soon as possible._
 
 
-[Project partners](https://web.natur.cuni.cz/gis/etrainee/partners.html)
+## Data Repository
 
-[Project news](https://web.natur.cuni.cz/gis/etrainee/news.html)
-
-<center>
-<img src="assets/img/uni_logos.png" alt="University logo" title="University logo" width="700" style="margin: 40px 0px 50px 0px;">
-</center>
+All data used in the course can be accessed via this link: [https://heibox.uni-heidelberg.de/d/297737a2fd774c669f82/](https://heibox.uni-heidelberg.de/d/297737a2fd774c669f82/)

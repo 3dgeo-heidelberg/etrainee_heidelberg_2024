@@ -48,7 +48,10 @@ The **dates** below represent the due date to finish the topics and be ready for
 * Some parts of the course are conducted in **Jupyter Notebooks**. These are static pages on the website, but it is recommended that you follow them interactively. Use the **download button** at the top of the respective pages (e.g., [here](https://3dgeo-heidelberg.github.io/etrainee_heidelberg_2024/module3/02_pointcloud_programming_python/exercise/m3_theme2_exercise1.html)). This will open the raw file in your browser, just right click and use "Save page as / Seite speichern unter..." to store the ipynb file.
 * All **data** required for the course is contained in the [central data repository](#data-repository). Each theme contains information which of the data (directories) is relevant for the current task.
     * You can **report issues** via the [Issue Tracker](https://github.com/3dgeo-heidelberg/etrainee_heidelberg_2024/issues) on the Github repository. Depending on the type of issue, they will be solved throughout the course or considered in future development.
-    
+
+## Set up your Python conda environment
+Installation instructions and links to the respective conda environments are given in the [software section](https://3dgeo-heidelberg.github.io/etrainee/software/software_python.html) of this course. 
+
 ## Data Repository
 
 All data used in the course can be accessed via Zenodo and downloaded before starting the respective module: [https://zenodo.org/records/10003575](https://zenodo.org/records/10003575)
